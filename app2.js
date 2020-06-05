@@ -1,7 +1,7 @@
 //add guessed number
 //start a new game button
 
-const randomNr = Math.floor(Math.random() * 51);
+const randomNr = Math.floor(Math.random() * 50) + 1;
 const guessCon = document.querySelector(".guessContainer");
 const guessBtn = document.querySelector(".guessBtn");
 const guessInput = document.querySelector(".guessInput");
