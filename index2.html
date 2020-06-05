@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Number Guessing Game</title>
+    <link rel="stylesheet" href="style2.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <h1>Number Guessing Game</h1>
+      <h2>
+        Try and guess a random number between 0 and 50.<br />
+        You have 10 attempts to guess the right number.
+      </h2>
+    </header>
+    <main>
+      <div class="guessContainer">
+        <div class="guessTitle">
+          <h1>Guess a number</h1>
+        </div>
+        <form class="guessForm">
+          <input type="text" class="guessInput" />
+          <button class="guessBtn">Submit your guess</button>
+        </form>
+        <div class="guessRemaining">
+          <h2>Attempts remaining:&nbsp;</h2>
+          <h2 class="numRemaining"></h2>
+        </div>
+        <h1 class="highLowVal"></h1>
+      </div>
+    </main>
+
+    <script src="app2.js"></script>
+  </body>
+</html>
