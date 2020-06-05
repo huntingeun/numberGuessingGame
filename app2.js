@@ -33,6 +33,7 @@ function highLowValFunc(number) {
     displayMessage(`Your number is too high. Try again`);
   } else if (number == randomNr) {
     displayMessage(`Congratulations! You got the number!`);
+    endGame();
   }
 }
 
